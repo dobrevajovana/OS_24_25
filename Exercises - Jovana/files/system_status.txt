@@ -1,0 +1,10 @@
+CPU Usage: 85% [########--] Process: chrome.exe PID: 1234 Memory: 1.2GB
+Memory Available: 6.5GB Total: 16GB Used: 9.5GB
+Disk Usage: /dev 75% Used [#######---] Available: 250GB
+Network Interface: eth0 Status: UP Speed: 1Gbps TX: 1.5GB RX: 2.3GB
+CPU Usage: 45% [####------] Process: firefox.exe PID: 2345 Memory: 800MB
+Memory Available: 6.3GB Total: 16GB Used: 9.7GB
+Disk Usage: /home 90% Used [#########-] Available: 100GB
+Network Interface: wlan0 Status: UP Speed: 300Mbps TX: 500MB RX: 800MB
+CPU Usage: 92% [#########-] Process: python.exe PID: 3456 Memory: 2.1GB
+Memory Available: 5.8GB Total: 16GB Used: 10.2GB
