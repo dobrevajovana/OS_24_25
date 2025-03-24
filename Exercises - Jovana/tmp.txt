@@ -1,0 +1,110 @@
+ID
+Name
+Department
+Salary
+JoinDate
+101
+John Smith
+IT
+75000
+2022-01-15
+102
+Mary Johnson
+HR
+65000
+2021-06-20
+103
+Bob Wilson
+IT
+82000
+2021-03-10
+104
+Alice Brown
+Marketing
+68000
+2022-04-05
+105
+Peter Davis
+IT
+79000
+2023-01-10
+106
+Sarah Miller
+HR
+67000
+2022-08-15
+107
+Mike Taylor
+Marketing
+71000
+2021-09-22
+108
+Emma White
+IT
+77000
+2022-11-30
+109
+David Clark
+HR
+63000
+2023-02-28
+110
+Lisa Anderson
+Marketing
+69000
+2021-12-05
+ID
+Name
+Department
+Salary
+JoinDate
+101
+John Smith
+IT
+75000
+2022-01-15
+102
+Mary Johnson
+HR
+65000
+2021-06-20
+103
+Bob Wilson
+IT
+82000
+2021-03-10
+104
+Alice Brown
+Marketing
+68000
+2022-04-05
+105
+Peter Davis
+IT
+79000
+2023-01-10
+106
+Sarah Miller
+HR
+67000
+2022-08-15
+107
+Mike Taylor
+Marketing
+71000
+2021-09-22
+108
+Emma White
+IT
+77000
+2022-11-30
+109
+David Clark
+HR
+63000
+2023-02-28
+110
+Lisa Anderson
+Marketing
+69000
+2021-12-05
