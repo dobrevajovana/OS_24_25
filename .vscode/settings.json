@@ -1,0 +1,10 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.runtimes": [
+        {
+          "name": "JavaSE-21",
+          "path": "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home",
+          "default": true
+        }
+      ]
+}
