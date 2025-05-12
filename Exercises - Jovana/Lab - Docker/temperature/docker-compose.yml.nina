@@ -1,0 +1,19 @@
+version: '3'
+services:
+  temperature-sensor:
+    build: .
+    container_name: temperature-sensor
+    volumes:
+      - ./temperature.txt:/app/temperature.txt
+      - ./temperaturelevel.txt:/app/temperaturelevel.txt
+    command: java -cp /app/classes TemperatureSensor  # Runs the TemperatureSensor service
+    restart: always
+
+  temperature-monitor:
+    build: .
+    container_name: temperature-monitor
+    volumes:
+      - ./temperature.txt:/app/temperature.txt
+      - ./temperaturelevel.txt:/app/temperaturelevel.txt
+    command: java -cp /app/classes TemperatureMonitor
+    restart: always

@@ -1,0 +1,17 @@
+It is necessary to implement the server part of the network application "Login Server" which will implement the following scenario:
+
+1. The client establishes a connection with the server by sending a Login handshake message by sending the LOGIN string.
+
+2. The server receives the message and returns an acknowledgment of the handshake by sending the string Logged In <IP_ADDRESS_OF_CLIENT>. IP_ADDRESS_OF_CLIENT is the IP address of the client that established the communication.
+
+3. The server keeps a counter of the total number of sent messages from all clients, which is incremented with each received message from a logged-in client. After successfully logging in a new client, a message is returned to the client with the number of messages sent since the server is active: total messages: 31, if 31 messages have been sent to the server by all clients together.
+
+4. The client starts by sending data in text format that must end with a new line.
+
+5. The server receives the messages one by one and returns them back to the client. Additionally, it logs all messages, along with arrival time and client IP address, in one log file.
+
+The name and location of the log file is given as the LOG_FILE environment variable.
+
+6. As soon as the server receives a LOGOUT message from the client, it resends the total number of messages sent so far, after which it returns a LOGGED OUT message. After this the server closes the connection.
+
+The server should be running on port 7301 and made to serve an unlimited number of clients. Upload the Server.java and Worker.java classes in the blank below.

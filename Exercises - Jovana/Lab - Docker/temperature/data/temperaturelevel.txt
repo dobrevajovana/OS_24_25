@@ -1,0 +1,5 @@
+Average Temperature: 25 °C, Level: Medium
+Average Temperature: 27 °C, Level: Medium
+Average Temperature: 26 °C, Level: Medium
+Average Temperature: 28 °C, Level: Medium
+Average Temperature: 27 °C, Level: Medium

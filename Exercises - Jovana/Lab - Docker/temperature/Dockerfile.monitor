@@ -1,0 +1,9 @@
+FROM ubuntu:latest
+# Install nginx
+RUN apt-get update && apt-get install -y openjdk-11-jdk
+WORKDIR /app
+COPY ./src /app/src
+COPY ./data/temperature.txt /app/
+COPY ./data/temperaturelevel.txt /app/
+RUN javac ./app/TemperatureMonitor.java
+CMD ["java", "TemperatureMonitor"]

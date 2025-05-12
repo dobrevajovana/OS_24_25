@@ -1,0 +1,34 @@
+version: '3'
+services:
+  #1. monitor
+  monitor:
+    build: #./monitor
+      context: .
+      dockerfile: Dockerfile.monitor
+    volumes:
+      - /data/temperature.txt:/app/temperature.txt
+      - /data/temperaturelevel.txt:/app/temp_lvl.txt
+    networks:
+      - temperature-level-network
+    
+    environment:
+      - LOW=5
+      - HIGH=10
+
+    
+  sensor:
+    build: 
+      context: .
+      dockerfile: Dockerfile.sensor
+    volumes:
+      - /data/temperature.txt
+    networks:
+      - temperature-level-network
+    
+
+networks:
+  temperature-level-network:
+    driver: bridge
+volumes:
+    data:
+      driver: local

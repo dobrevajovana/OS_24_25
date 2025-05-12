@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y openjdk-11-jdk
+WORKDIR /app
+COPY ./src /app/src
+COPY ./data/temperature.txt /app/
+COPY ./data/temperaturelevel.txt /app/
+RUN javac TemperatureSensor.java
+CMD ["java", "TemperatureSensor"]

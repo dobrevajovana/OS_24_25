@@ -1,0 +1,3 @@
+Fridge;$600;5
+TV;$1500;6
+Microwave;$200;10
